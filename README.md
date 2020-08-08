@@ -2,13 +2,17 @@
 
 The ESLint plugin you definitely didn’t ask for.
 
-![The plugin in action](https://res.cloudinary.com/jlengstorf/video/upload/vs_60,dl_200,w_800,e_loop/v1596869287/oss/eslint-plugin-replyguy/demo.gif)
+![The plugin in action](https://res.cloudinary.com/jlengstorf/video/upload/vs_60,dl_150,e_loop/v1596922463/oss/eslint-plugin-replyguy/wnkulwmpqhfdkej133in.gif)
+
+This plugin was inspired by [@cassidoo’s Reply Guys video](https://twitter.com/cassidoo/status/1284201376516435968) and multiple daily reminders that no matter what you tweet, there’s a Reply Guy ready to tell you you’re wrong.
 
 ## Install & Config
 
 ```bash
 npm install --save-dev eslint-plugin-replyguy
 ```
+
+In your `.eslintrc.js`, add this plugin as a preset:
 
 ```js
 module.exports = {

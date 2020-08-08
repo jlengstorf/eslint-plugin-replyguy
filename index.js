@@ -3,6 +3,7 @@ const rules = {
   'no-array-methods': require('./lib/rules/no-array-methods'),
   'use-triple-equals': require('./lib/rules/use-triple-equals'),
   'use-double-equals': require('./lib/rules/use-double-equals'),
+  'i-have-a-daughter': require('./lib/rules/i-have-a-daughter'),
 };
 
 const rulesAsErrors = Object.fromEntries(
