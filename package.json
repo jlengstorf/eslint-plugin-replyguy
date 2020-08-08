@@ -1,6 +1,6 @@
 {
   "name": "eslint-plugin-replyguy",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "The ESLint plugin you definitely didn’t ask for.",
   "main": "index.js",
   "author": "Jason Lengstorf <jason@lengstorf.com>",
