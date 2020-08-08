@@ -2,7 +2,7 @@
 
 The ESLint plugin you definitely didn’t ask for.
 
-![The plugin in action](https://res.cloudinary.com/jlengstorf/video/upload/q_auto,f_auto,w_800/v1596869287/oss/eslint-plugin-replyguy/demo.gif)
+![The plugin in action](https://res.cloudinary.com/jlengstorf/video/upload/vs_60,dl_200,w_800,e_loop/v1596869287/oss/eslint-plugin-replyguy/demo.gif)
 
 ## Install & Config
 
