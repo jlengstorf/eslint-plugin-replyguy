@@ -1,12 +1,8 @@
 {
   "name": "eslint-plugin-replyguy",
   "version": "1.0.0",
-  "description": "",
+  "description": "The ESLint plugin you definitely didn’t ask for.",
   "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "keywords": [],
-  "author": "",
+  "author": "Jason Lengstorf <jason@lengstorf.com>",
   "license": "ISC"
 }
