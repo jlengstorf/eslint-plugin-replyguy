@@ -3,6 +3,10 @@
   "version": "1.2.0",
   "description": "The ESLint plugin you definitely didn’t ask for.",
   "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jlengstorf/eslint-plugin-replyguy"
+  },
   "author": "Jason Lengstorf <jason@lengstorf.com>",
   "license": "ISC"
 }
