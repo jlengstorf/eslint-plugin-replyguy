@@ -9,6 +9,7 @@ const rules = {
   'no-if': require('./lib/rules/no-if'),
   'no-regular-functions': require('./lib/rules/no-regular-functions'),
   'no-arrow-functions': require('./lib/rules/no-arrow-functions'),
+  'no-var': require('./lib/rules/no-var'),
 }
 
 const rulesAsErrors = Object.fromEntries(
