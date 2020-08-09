@@ -15,7 +15,9 @@ const rules = {
   'no-tests': require('./lib/rules/no-test'),
   'no-light-theme': require('./lib/rules/no-light-theme'),
   'wrong-font-choice': require('./lib/rules/wrong-font-choice'),
-  'no-css-in-js': require('./lib/rules/no-css-in-js')
+  'no-css-in-js': require('./lib/rules/no-css-in-js'),
+  'roll-your-own': require('./lib/rules/roll-your-own'),
+  'sleep-is-for-the-weak': require('./lib/rules/sleep-is-for-the-weak')
 }
 
 const rulesAsErrors = Object.fromEntries(
