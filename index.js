@@ -10,6 +10,8 @@ const rules = {
   'no-regular-functions': require('./lib/rules/no-regular-functions'),
   'no-arrow-functions': require('./lib/rules/no-arrow-functions'),
   'no-var': require('./lib/rules/no-var'),
+  'no-functions': require('./lib/rules/no-functions'),
+  'no-classes': require('./lib/rules/no-classes')
 }
 
 const rulesAsErrors = Object.fromEntries(
@@ -21,7 +23,7 @@ module.exports = {
   configs: {
     all: {
       plugins: ['replyguy'],
-      rules: rulesAsErrors,
-    },
-  },
+      rules: rulesAsErrors
+    }
+  }
 }
