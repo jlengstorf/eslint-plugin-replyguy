@@ -7,6 +7,8 @@ const rules = {
   'no-let-const': require('./lib/rules/no-let-const'),
   'no-ternary': require('./lib/rules/no-ternary'),
   'no-if': require('./lib/rules/no-if'),
+  'no-regular-functions': require('./lib/rules/no-regular-functions'),
+  'no-arrow-functions': require('./lib/rules/no-arrow-functions'),
   'no-var': require('./lib/rules/no-var'),
   'no-functions': require('./lib/rules/no-functions'),
   'no-classes': require('./lib/rules/no-classes')
