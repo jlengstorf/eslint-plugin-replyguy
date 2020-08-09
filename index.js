@@ -1,63 +1,24 @@
+const rules = {
+  "no-loops": require("./lib/rules/no-loops"),
+  "no-array-methods": require("./lib/rules/no-array-methods"),
+  "use-triple-equals": require("./lib/rules/use-triple-equals"),
+  "use-double-equals": require("./lib/rules/use-double-equals"),
+  "i-have-a-daughter": require("./lib/rules/i-have-a-daughter"),
+  "no-let-const": require("./lib/rules/no-let-const"),
+  "no-ternary": require("./lib/rules/no-ternary"),
+  "no-if": require("./lib/rules/no-if"),
+};
+
+const rulesAsErrors = Object.fromEntries(
+  Object.keys(rules).map((key) => [`replyguy/${key}`, 2])
+);
+
 module.exports = {
-  rules: {
-    'use-triple-equals': {
-      create: function (context) {
-        return {
-          BinaryExpression(node) {
-            if (node.operator === '!=' || node.operator === '==') {
-              context.report({
-                node,
-                message: `ACK-tually, you should use ${node.operator}= because ${node.operator} is buggy.`,
-              });
-            }
-          },
-        };
-      },
-    },
-    'use-double-equals': {
-      create: function (context) {
-        return {
-          BinaryExpression(node) {
-            if (node.operator === '!==' || node.operator === '===') {
-              context.report({
-                node,
-                message: `ACK-tually, you should use ${node.operator.substr(
-                  0,
-                  2
-                )} because ${node.operator} is overkill.`,
-              });
-            }
-          },
-        };
-      },
-    },
-    'use-normal-functions': {
-      create: function (context) {
-        return {
-          VariableDeclarator(node) {
-            if (node.init.type === 'ArrowFunctionExpression') {
-              context.report({
-                node,
-                message: `ACK-tually, normal functions declarations are better and less ambiguous.`,
-              });
-            }
-          },
-        };
-      },
-    },
-    'use-arrow-functions': {
-      create: function (context) {
-        return {
-          FunctionDeclaration(node) {
-            if (node.type === 'FunctionDeclaration') {
-              context.report({
-                node,
-                message: `ACK-tually, we are modern, you should use arrow functions.`,
-              });
-            }
-          },
-        };
-      },
+  rules,
+  configs: {
+    all: {
+      plugins: ["replyguy"],
+      rules: rulesAsErrors,
     },
   },
 };

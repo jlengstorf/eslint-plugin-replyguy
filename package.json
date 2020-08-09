@@ -1,8 +1,12 @@
 {
   "name": "eslint-plugin-replyguy",
-  "version": "1.0.4",
+  "version": "1.5.0",
   "description": "The ESLint plugin you definitely didn’t ask for.",
   "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jlengstorf/eslint-plugin-replyguy"
+  },
   "author": "Jason Lengstorf <jason@lengstorf.com>",
   "license": "ISC"
 }
