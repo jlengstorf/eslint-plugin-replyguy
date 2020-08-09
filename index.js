@@ -7,6 +7,7 @@ const rules = {
   'no-let-const': require('./lib/rules/no-let-const'),
   'no-ternary': require('./lib/rules/no-ternary'),
   'no-if': require('./lib/rules/no-if'),
+  'no-var': require('./lib/rules/no-var'),
 }
 
 const rulesAsErrors = Object.fromEntries(
