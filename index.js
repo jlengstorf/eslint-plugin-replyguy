@@ -11,7 +11,8 @@ const rules = {
   'no-arrow-functions': require('./lib/rules/no-arrow-functions'),
   'no-var': require('./lib/rules/no-var'),
   'no-functions': require('./lib/rules/no-functions'),
-  'no-classes': require('./lib/rules/no-classes')
+  'no-classes': require('./lib/rules/no-classes'),
+  'no-tests': require('./lib/rules/no-test'),
 }
 
 const rulesAsErrors = Object.fromEntries(
