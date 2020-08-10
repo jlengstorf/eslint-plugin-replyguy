@@ -12,6 +12,7 @@ const rules = {
   'no-var': require('./lib/rules/no-var'),
   'no-functions': require('./lib/rules/no-functions'),
   'no-classes': require('./lib/rules/no-classes'),
+  'jsx-filename-extension': require('./lib/rules/jsx-filename-extension'),
   'no-tests': require('./lib/rules/no-test'),
   'no-light-theme': require('./lib/rules/no-light-theme'),
   'wrong-font-choice': require('./lib/rules/wrong-font-choice'),
