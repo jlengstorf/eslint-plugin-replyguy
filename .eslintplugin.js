@@ -1,3 +1,3 @@
-const index = require('./index')
+const { rules } = require('./index')
 
-exports.rules = index.configs.all.rules
+exports.rules = rules
