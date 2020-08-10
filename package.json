@@ -8,5 +8,9 @@
     "url": "https://github.com/jlengstorf/eslint-plugin-replyguy"
   },
   "author": "Jason Lengstorf <jason@lengstorf.com>",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^7.6.0",
+    "eslint-plugin-local": "^1.0.0"
+  }
 }
