@@ -13,7 +13,8 @@ const rules = {
   'no-functions': require('./lib/rules/no-functions'),
   'no-classes': require('./lib/rules/no-classes'),
   'no-light-theme': require('./lib/rules/no-light-theme'),
-  'wrong-font-choice': require('./lib/rules/wrong-font-choice')
+  'wrong-font-choice': require('./lib/rules/wrong-font-choice'),
+  'no-css-in-js': require('./lib/rules/no-css-in-js')
 }
 
 const rulesAsErrors = Object.fromEntries(
